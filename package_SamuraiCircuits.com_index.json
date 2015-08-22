@@ -1,0 +1,46 @@
+{
+    "packages": [
+        {
+            "name": "SamuraiCircuits",
+            "maintainer": "Samurai Circuits",
+            "websiteURL": "http://www.SamuraiCircuits.com/",
+            "email": "support@samuraicircuits.com",
+            "help":
+            {
+                "online": "http://www.samuraicircuits.com/MediaWiki/"
+            },
+            "platforms": [
+                {
+                    "name": "Samurai Circuits AVR Boards",
+                    "architecture": "avr",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "help":
+                    {
+                        "online": "http://www.samuraicircuits.com/MediaWiki/"
+                    },
+                    "url": "http://www.samuraicircuits.com/arduino/samurai_avr_1.0.0.zip",
+                    "archiveFileName": "samurai_avr_1.0.0.zip",
+                    "checksum": "SHA-256:2d9a43285d3e85ff9d1d221aa1b637de7393260f539c3a7d51428d056da934fb",
+                    "size": "8545",
+                    "boards": [
+                        {"name": "EB1"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "4.8.1-arduino5"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.0.1-arduino5"
+                        }
+                    ]
+                }
+            ],
+            "tools":[]
+        }
+    ]
+}
